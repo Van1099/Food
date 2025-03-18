@@ -1,0 +1,38 @@
+.chefs {
+    background: #000;
+/*     .title {
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    } */
+    &__wrapper {
+        display: flex;
+    }
+    &__card {
+        padding-right: 25px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    &__title {
+        padding-left: 25px;
+    }
+    &__name {
+        font-size: 18px;
+        letter-spacing: -0.01em;
+    }
+    &__subtitle {
+        font-size: 12px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &__dishes {
+        display: grid;
+        grid-template-columns: 160px 65px 65px;
+        gap: 30px;
+    }
+}

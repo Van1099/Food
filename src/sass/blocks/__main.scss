@@ -1,0 +1,42 @@
+.main {
+    height: 1080px;
+    width: 100%;
+    background: url('../../img/placeholder.png') center center / cover no-repeat;
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        opacity: 0.7;
+    }
+    &__btn {
+        display: block;
+        width: 220px;
+        height: 72px;      
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0 auto; 
+        margin-top: 40px;
+    }
+    &-items {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__item {
+        width: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        &__icon {
+            margin-bottom: 25px;
+        }
+        &__subtext {
+            opacity: 0.5;
+            margin-top: 5px;
+        }
+    }
+
+}

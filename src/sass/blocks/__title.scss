@@ -1,0 +1,40 @@
+h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+/* .title {
+    width: 575px;
+    height: 175px;
+    position: relative;
+    text-align: center;
+    &__front {
+        top: 40px;
+        position: absolute;
+    }
+} */
+.title {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__big {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 100px;
+        letter-spacing: 0.2em;
+        color: #303030;
+    }
+    &__front {
+        position: absolute;
+        margin-top: 40px;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 200%;
+        letter-spacing: 0.2em;
+        color: $second-color;
+    }
+}

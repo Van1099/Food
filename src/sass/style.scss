@@ -1,0 +1,58 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/_variables';
+
+@import 'blocks/_header';
+@import 'blocks/_main';
+@import 'blocks/_title';
+@import 'blocks/_about';
+@import 'blocks/__works';
+@import 'blocks/_dishes';
+@import 'blocks/_chefs';
+@import 'blocks/_recipes';
+@import 'blocks/_social';
+@import 'blocks/_footer';   
+
+* {
+    font-family: "Helvetica Neue", sans-serif;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+/*     padding-top: 90px; */
+
+}
+.btn {
+    background-color: #262626;
+    letter-spacing: 0.2em;
+    text-align: center; 
+    color:  rgba(255, 255, 255, 0.5);
+    border-radius: 43px;
+    border: 2px solid #303030;
+    &:hover {
+        background-color: $main-color;
+        color: #262626;
+    }    
+}
+.btn2 {
+    width: 100px;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 400%;
+    text-transform: uppercase;
+}
+.divider {
+    background-color: $main-color;
+    width: 56px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+.subdivider {
+    width: 100%;
+    height: 2px;
+    background: #303030;
+}

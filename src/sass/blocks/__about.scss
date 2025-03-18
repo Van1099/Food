@@ -1,0 +1,60 @@
+.about {
+    background: rgb(29, 28, 28);
+    height: 465px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        position: absolute;
+        top: 900px;
+        background: $third-color;
+        width: 1110px;
+        height: 736px;
+        /* margin: 0 auto; */
+    }
+    &__descr {
+        width: 734px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        text-align: center;
+        color: #a6a6a6;
+    }
+    .carousel {
+        margin: 90px;
+        width: 734px;
+        position: relative;
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 40%;
+            left: -110px;
+            background-color: black;
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .slick-next {
+            right: -110px;
+            left: auto;
+        }
+
+    }
+    .slick-slide img {
+        width: 100%;
+        /* padding-right: 20px;     */
+    }
+/*     .slick-slide {
+        margin-right: 20px;
+    } */
+/*     .slick-list.draggable {
+        width: 720px;
+    } */
+}
+
+/* slick-slide slick-current slick-active */
