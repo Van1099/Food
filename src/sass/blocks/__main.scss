@@ -32,6 +32,10 @@
         margin-top: 20px;
         &__icon {
             margin-bottom: 25px;
+            &:hover {
+                transform:  rotate(135deg) scale(1.6);
+                transition: 0.8s;
+            }
         }
         &__subtext {
             opacity: 0.5;
