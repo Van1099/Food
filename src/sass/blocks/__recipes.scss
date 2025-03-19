@@ -1,3 +1,17 @@
 .recipes {
     background-color: black;
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 540px);
+        grid-template-rows: repeat(3, 150px);
+    }
+    &__card {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
 }

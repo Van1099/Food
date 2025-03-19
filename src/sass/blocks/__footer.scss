@@ -2,7 +2,6 @@
     .main-items {
         margin-bottom: 30px;
     }
-    margin-top: 40px;
     background: $third-color;
     padding: 40px;
     &__logo {
@@ -10,7 +9,7 @@
         img {
             vertical-align: unset;
             margin-right: 10px;
-        }
+        }   
     }
     &__end {
         display: flex;

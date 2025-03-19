@@ -1,9 +1,5 @@
 .dishes {
     background-color: black;
-/*     &__wrapper {
-        display: flex;
-        justify-content: center;
-    } */
     &__grid {
         display: grid;
         grid-template-columns: repeat(3, 350px);
@@ -39,6 +35,12 @@
         display: flex;
         justify-content: space-between;
         align-items:center;
-
+    }
+    &__stars {
+        img {
+            &:hover {
+                color:aqua;
+            }
+        }
     }
 }
